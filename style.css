@@ -1,3 +1,5 @@
+/* Cabeçalho do site */
+
 .cabeçalho{
     background-color: rgb(12, 192, 6);
     color: white;
@@ -8,41 +10,69 @@
 }
 
 .cabeçalho-imagem{
-    width: 15%;
+    width: 6%;
+}
+
+.tit{
+    color:white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+    display: absolute;
+    left: 100px;
 }
 
 .cabeçalho-lista-item{
     display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
+    margin: 0 10px;
+    font-size: 20px;
 }
 
+/* Corpo do site */
+
+.body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Seção bio */
 .projeto-imagem{
     width: 25%;
-
+    margin: 2%;
 }
 
-.sobre{
-    background-image: linear-gradient(rgb(12, 192, 6), rgb(177, 235, 175));
+#bio{
+    background-image: linear-gradient(rgb(12, 192, 6), rgb(114, 230, 126));
     color:white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .divisão{
-    width: 35%;
+    width: 30%;
 }
 
-.sobre-projeto{
-    padding: 36px 0;
+.sobre-bio{
+    padding: 24px 0;
 }
 
-.projeto{
-    text-align: center;
+.sobre1{
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 30px;
 }
 
-.sobre{
+/* Seção projeto */
+
+#projeto{
+    padding: 24px;
     color:black;
+}
+
+.titulo1{
+    text-align: center;
+    padding: 50px 0;
 }

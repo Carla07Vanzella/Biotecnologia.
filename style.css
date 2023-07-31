@@ -1,78 +1,101 @@
-/* Cabeçalho do site */
+/* Cabeçalho e menu */
 
-.cabeçalho{
-    background-color: rgb(12, 192, 6);
-    color: white;
+.cabecalho {
+    background-color: rgb(0, 107, 0);
+    color:white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px 0;
+    padding: 20px 0px;
+    font-family: 'serif';
 }
 
-.cabeçalho-imagem{
+.logo {
     width: 6%;
+    position: absolute;
+    top: 40px;
+    left: 70px;
 }
 
-.tit{
-    color:white;
-    font-size: 35px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: start;
-    display: absolute;
-    left: 100px;
-}
-
-.cabeçalho-lista-item{
+.menu-itens {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0px 10px;
     font-size: 20px;
+
 }
 
-/* Corpo do site */
-
-.body{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-
-/* Seção bio */
-.projeto-imagem{
-    width: 25%;
-    margin: 2%;
-}
-
-#bio{
-    background-image: linear-gradient(rgb(12, 192, 6), rgb(114, 230, 126));
+.menu-itens a {
+    text-decoration: none;
     color:white;
+}
+
+.titulosite {
+    justify-content: center;
+    margin: center 0px 20px 400px;
+    font-size: 40px;
+}
+
+.menu-itens:hover a { 
+    color: rgb(33, 58, 33);
+
+}
+
+/* Área sobre biotecnologia */
+
+#sobre-bio {
+    background-image: linear-gradient(rgb(0, 107, 0), rgb(47, 201, 63));
     display: flex;
+    padding: 15px 0px;
     justify-content: center;
     align-items: center;
-    padding: 24px 0;
-    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
 }
 
-.divisão{
-    width: 30%;
+.divisao {
+    width: 35%;
 }
 
-.sobre-bio{
-    padding: 24px 0;
+.titulos-geral {
+    font-size: 24px;
 }
 
-.sobre1{
+.paragrafos { 
+    text-indent: 20px;
     font-size: 20px;
     text-align: justify;
-    text-indent: 30px;
+    margin-right: 20px;
+
 }
 
-/* Seção projeto */
+.foto {
+    width: 28%;
 
-#projeto{
-    padding: 24px;
-    color:white;
 }
 
-.titulo1{
+/* Área sobre o projeto */
+
+projeto#area-projeto {
+    padding: 24px 0;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.titulo-projeto {
     text-align: center;
     padding: 50px 0;
+    font-size: 30px;
 }
+
+.paragrafo-projeto {
+    text-align: center;
+    text-indent: 20px;
+    font-size: 20px;
+}
+
+
+
+/* Área atualizações */
